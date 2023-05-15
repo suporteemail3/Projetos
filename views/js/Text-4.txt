@@ -1,0 +1,1 @@
+$query = "SELECT id,notificacao_ano, COUNT(id)as TOTAL FROM recife  group by bairro LIMIT 3 ";
